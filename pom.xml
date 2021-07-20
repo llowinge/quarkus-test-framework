@@ -360,6 +360,7 @@
                 <activeByDefault>true</activeByDefault>
             </activation>
             <modules>
+                <module>examples/camel-quarkus-amq-soap-http</module>
                 <module>examples/quarkus-cli</module>
                 <module>examples/pingpong</module>
                 <module>examples/restclient</module>
