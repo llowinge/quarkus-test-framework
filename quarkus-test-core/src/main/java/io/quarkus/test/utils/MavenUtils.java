@@ -22,7 +22,7 @@ import io.quarkus.test.configuration.PropertyLookup;
 
 public final class MavenUtils {
 
-    public static final String MVN_COMMAND = "mvn";
+    public static final String MVN_COMMAND = "mvnDebug";
     public static final String PACKAGE_GOAL = "package";
     public static final String INSTALL_GOAL = "install";
     public static final String MVN_REPOSITORY_LOCAL = "maven.repo.local";

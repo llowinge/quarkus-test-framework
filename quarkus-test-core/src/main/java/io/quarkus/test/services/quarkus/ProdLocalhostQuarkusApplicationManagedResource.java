@@ -26,6 +26,7 @@ public class ProdLocalhostQuarkusApplicationManagedResource extends LocalhostQua
         if (model.getArtifact().getFileName().toString().endsWith(".jar")) {
             command.add(JAVA);
             command.addAll(systemProperties);
+            command.add("-agentlib:jdwp=transport=dt_socket,address=5005,server=y,suspend=y");
             command.add("-jar");
             command.add(model.getArtifact().toAbsolutePath().toString());
         } else {
